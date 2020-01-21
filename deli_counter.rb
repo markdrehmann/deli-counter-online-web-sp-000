@@ -7,3 +7,12 @@ def line(katz_deli)
     "You are #{place} in line."
   end
 end
+
+def take_a_number(katz_deli, name)
+
+end
+
+def now_serving(katz_deli)
+  puts "Now serving #{katz_deli[0]}!"
+  katz_deli.shift
+end
